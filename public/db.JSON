@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "name": "Computer Science & Engineering",
+        "duration": 4,
+        "fee": 990,
+        "ratting": 4.5,
+        "count": 4400,
+        "category": "Science",
+        "img": "https://cust.edu.bd/wp-content/uploads/2018/04/B.Sc-in-CSE.png"
+    },
+    {
+        "id": 2,
+        "name": "B.Sc. in Electrical and Electronic Engineering",
+        "duration": 4,
+        "fee": 940,
+        "ratting": 3.2,
+        "count": 1500,
+        "category": "EEE",
+        "img": "https://mcm.edu.ph/wp-content/uploads/2019/02/electronics_engineering_img.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Master of Human Rights Law",
+        "duration": 2,
+        "fee": 740,
+        "ratting": 4.6,
+        "count": 20000,
+        "category": "Law",
+        "img": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bGF3fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80"
+    },
+    {
+        "id": 4,
+        "name": "Applied Mathematics",
+        "duration": 4,
+        "fee": 1050,
+        "ratting": 3.5,
+        "count": 9800,
+        "category": "Science",
+        "img": "https://leverageedu.com/blog/wp-content/uploads/2020/07/Branches-of-Mathematics.png"
+    },
+    {
+        "id": 5,
+        "name": "MA in English (2.5 Years) Program",
+        "duration": 2.5,
+        "fee": 840,
+        "ratting": 4.2,
+        "count": 10000,
+        "category": "English",
+        "img": "https://www.cardiffmet.ac.uk/education/PublishingImages/21-csesp-header-ecw-ma.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Social & Digital Marketing",
+        "duration": 4,
+        "fee": 940,
+        "ratting": 5,
+        "count": 40001,
+        "category": "Marketing",
+        "img": "https://www.digitalmarketing.org/hs-fs/hubfs/shutterstock_1465308272.jpg?width=600&name=shutterstock_1465308272.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Master of Social Sciences in Sociology",
+        "duration": 2.5,
+        "fee": 540,
+        "ratting": 2.8,
+        "count": 12000,
+        "category": "Social Science",
+        "img": "https://www.online-phd-degrees.com/wp-content/uploads/2019/03/shutterstock_199495031-1024x709.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Bachelor of Business Administration",
+        "duration": 4,
+        "fee": 860,
+        "ratting": 4.9,
+        "count": 1800,
+        "category": "Business",
+        "img": "https://static.vecteezy.com/system/resources/thumbnails/000/163/568/small/CPA-01.jpg"
+    }
+]

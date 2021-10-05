@@ -15,7 +15,7 @@ const ServicesAll = () => {
   return (
     <span>
         <Meta title={pageTitle}/>
-        <div className="item-container mb-4">
+        <div className="item-container mb-4 pt-2">
           <div>
             <Row>
               <h2>All Services</h2>

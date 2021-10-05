@@ -1,0 +1,8 @@
+.successImg {
+   margin: auto;
+}
+
+.successImg img {
+    height: 400px;
+    width: 50%;
+}

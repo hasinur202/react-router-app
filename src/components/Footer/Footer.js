@@ -3,7 +3,7 @@ const Footer = () => {
   return (
     <div className="mt-4 mb-4">
       <footer className='text-center text-capitalize'>
-        copyright Hero University &copy; {year}
+        copyright <strong>Inpire Institute</strong> &copy; {year}
       </footer>
     </div>
   )

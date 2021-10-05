@@ -1,11 +1,14 @@
 
 import React from 'react';
-import { Card, Col } from 'react-bootstrap';
+import { Button, Card, Col, Modal } from 'react-bootstrap';
 import './Services.css'
 import Rating from 'react-rating';
+import { LinkContainer } from 'react-router-bootstrap';
+import MyVerticallyCenteredModal from './MyVerticallyCenteredModal';
 
 const Services = (props) => {
     const { name, fee, img, category, ratting, count, duration } = props.service;
+    const [modalShow, setModalShow] = React.useState(false);
     return (
         <Col>
             <Card>
@@ -26,9 +29,19 @@ const Services = (props) => {
                         ></Rating> {ratting} ({count})
                     </div>
                     <div className="text-center mt-2">
-                        <button type='button' className='btn btn-primary btn-sm me-2'>
+                        <button onClick={() => setModalShow(true)} type='button' className='btn btn-primary btn-sm me-2'>
                             View Details
                         </button>
+                        <MyVerticallyCenteredModal
+                            data={props.service}
+                            show={modalShow}
+                            onHide={() => setModalShow(false)}
+                        />
+                        <LinkContainer to='/applied'>
+                            <button type='button' className='btn btn-success btn-sm me-2'>
+                                Apply
+                            </button>
+                        </LinkContainer>
                     </div>
                 </Card.Body>
             </Card>

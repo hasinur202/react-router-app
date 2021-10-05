@@ -6,13 +6,12 @@ import logo from '../../images/logo-2.png'
 const Menu = () => {
   return (
     <Container className="fullWidth">
-      <header className='container-lg d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-2 border-bottom'>
+      <header className='container-lg d-flex flex-wrap align-items-center justify-content-center justify-content-md-between mb-1 border-bottom'>
         <LinkContainer to='/'>
-        <img
-            className="leftLogo"
-            src={logo}
-            alt="Logo"
-          />
+          <span>
+            <img className="leftLogo" src={logo} alt="Logo" />
+              <strong className="siteName">INSPIRE INSTITUTE</strong>
+            </span>
         </LinkContainer>
         <Nav>
           <ul className='nav col-12 col-md-auto mb-2 justify-content-center mb-md-0 myMenu'>
@@ -29,6 +28,11 @@ const Menu = () => {
             <li>
               <LinkContainer to='/about'>
                 <Nav.Link className='nav-link px-2 link-secondary'>About</Nav.Link>
+              </LinkContainer>
+            </li>
+            <li>
+              <LinkContainer to='/contact-us'>
+                <Nav.Link className='nav-link px-2 link-secondary'>Contact</Nav.Link>
               </LinkContainer>
             </li>
           </ul>

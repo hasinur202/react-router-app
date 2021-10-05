@@ -1,6 +1,6 @@
 .fullWidth{
     max-width: 100% !important;
-    background: #ddd;
+    background: #00bcd4;
 }
 .myMenu > li:hover{
     background: #ddd;
@@ -14,5 +14,9 @@
 .leftLogo {
     width: 80px;
     height: 70px;
+    cursor: pointer;
+}
+
+.siteName {
     cursor: pointer;
 }

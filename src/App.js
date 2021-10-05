@@ -9,6 +9,8 @@ import Home from './pages/Home/Home'
 import About from './pages/About/About'
 import ServicesAll from './pages/ServicesAll/ServicesAll'
 import NotFound from './pages/NotFound/NotFound'
+import Contact from './pages/Contact/Contact'
+import Applied from './pages/Applied/Applied'
 
 const App = () => {
   return (
@@ -23,6 +25,12 @@ const App = () => {
             </Route>
           <Route path='/about' exact>
             <About></About>
+            </Route>
+            <Route path='/contact-us' exact>
+              <Contact></Contact>
+            </Route>
+            <Route path='/applied' exact>
+              <Applied></Applied>
             </Route>
           <Route path="*">
             <NotFound></NotFound>

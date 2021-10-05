@@ -1,6 +1,6 @@
 # Inspire Institute
 
-Project Live link: [Click here](https://github.com/facebook/create-react-app).
+Project Live link: [Click here](https://festive-jepsen-d3f1e2.netlify.app/).
 
 ## Technologies
 
